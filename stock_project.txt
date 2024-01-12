@@ -1,0 +1,7 @@
+The "Stock Market Prediction Project" is a machine learning endeavor aimed at predicting stock market trends using a dataset of 44 stocks and various machine learning algorithms. The dataset comprises 10 features per stock, including static values like Sector, P/E ratio, Return on Equity, Return on Assets, gross margin, sentiment score, etc. Each stock has a target column indicating the likelihood of buying, holding, or selling the stock.
+
+The project follows a systematic approach starting with "Data Collection", where historical market data of approximately 44 stocks was gathered. This is followed by "Data Preprocessing", where the collected data was processed to make it suitable for training machine learning models. The preprocessing involved label encoding, class transformation, scaling numeric input columns, and text preprocessing for sentiment analysis.
+
+The next step is "Model Training", where models were trained to predict whether to buy, hold, or sell given stock details. The machine learning algorithms used include Naive Bayes, SVM, Decision Tree, and Neural Networks. The final step is "Model Evaluation", where the trained models were evaluated based on their accuracy, with a graph showcasing the performance of each model.
+
+The project's results are visualized in an accuracy graph that compares the performance of each model. The project demonstrates the potential of machine learning for stock market prediction, providing detailed insights into algorithm accuracy and effectiveness in modeling financial datasets.

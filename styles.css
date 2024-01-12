@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+#content {
+    margin: 15px;
+}
+#content section {
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+#content section h2 {
+    margin-top: 0;
+    color: #343a40;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+.carousel1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust this to the height of your largest image */
+}
+.carousel1 img {
+    display: none;
+    max-height: 100%;
+}
+.carousel1 img.active {
+    display: block;
+}
+.carousel1 button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+.carousel1 button.previous {
+    left: 10px;
+}
+.carousel1 button.next {
+    right: 10px;
+}
+
+
+
+.carousel2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust this to the height of your largest image */
+}
+.carousel2 img {
+    display: none;
+    max-height: 100%;
+}
+.carousel2 img.active {
+    display: block;
+}
+.carousel2 button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+.carousel2 button.previous {
+    left: 10px;
+}
+.carousel2 button.next {
+    right: 10px;
+}
