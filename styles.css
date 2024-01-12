@@ -30,6 +30,21 @@ footer {
     background-color: #343a40;
     color: white;
 }
+nav {
+    background-color: #e9ecef;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
 .carousel1 {
     position: relative;
     overflow: hidden;
